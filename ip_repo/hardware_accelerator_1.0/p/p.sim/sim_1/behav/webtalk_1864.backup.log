@@ -1,0 +1,15 @@
+#-----------------------------------------------------------
+# Webtalk v2014.4 (64-bit)
+# SW Build 1071353 on Tue Nov 18 18:29:27 MST 2014
+# IP Build 1070531 on Tue Nov 18 01:10:18 MST 2014
+# Start of session at: Fri Jun 26 15:58:07 2015
+# Process ID: 8316
+# Log file: c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/behav/webtalk.log
+# Journal file: c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/behav/xsim.dir/hardware_accelerator_v1_testbench_behav/webtalk/xsim_webtalk.tcl -notrace
+
+    while executing
+"webtalk_transmit -clientid 4085626904 -regid "174393175_174132533_210584538_840" -xml c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/behav/xsim.dir..."
+    (file "c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/behav/xsim.dir/hardware_accelerator_v1_testbench_behav/webtalk/xsim_webtalk.tcl" line 41)
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun 26 15:58:12 2015...

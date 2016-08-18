@@ -1,0 +1,45 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port S_AXI_HP1 -pg 1 -y 460 -defaultsOSRD
+preplace port DDR -pg 1 -y 460 -defaultsOSRD
+preplace port S_AXI_HP2 -pg 1 -y 480 -defaultsOSRD
+preplace port S_AXI_ACP -pg 1 -y 400 -defaultsOSRD
+preplace port m_axi_acp -pg 1 -y 200 -defaultsOSRD
+preplace port peripheral_aresetn -pg 1 -y 420 -defaultsOSRD
+preplace port S_AXI_GP0 -pg 1 -y 420 -defaultsOSRD
+preplace port interconnect_aresetn -pg 1 -y 40 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 480 -defaultsOSRD
+preplace port aclk -pg 1 -y 20 -defaultsOSRD
+preplace port m_axi_hp0 -pg 1 -y 240 -defaultsOSRD
+preplace port m_axi_hp1 -pg 1 -y 260 -defaultsOSRD
+preplace port m_axi_gp0 -pg 1 -y 220 -defaultsOSRD
+preplace port m_axi_hp2 -pg 1 -y 280 -defaultsOSRD
+preplace port S_AXI_HP0 -pg 1 -y 440 -defaultsOSRD
+preplace portBus IRQ_F2P -pg 1 -y 620 -defaultsOSRD
+preplace portBus GPIO_O -pg 1 -y 440 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst axi_interconnect_0 -pg 1 -lvl 2 -y 240 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 480 -defaultsOSRD
+preplace netloc hier_pspl_port_hp1_m_axi 1 0 1 N
+preplace netloc processing_system7_0_DDR 1 1 2 N 460 NJ
+preplace netloc hier_pspl_port_hp0_m_axi 1 0 1 N
+preplace netloc processing_system7_0_GPIO_O 1 1 2 580 450 NJ
+preplace netloc hier_readies_interrupts 1 0 1 N
+preplace netloc axi_interconnect_0_M02_AXI 1 2 1 N
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 150 100 570
+preplace netloc proc_sys_reset_0_interconnect_aresetn 1 1 2 580 40 N
+preplace netloc axi_interconnect_0_M04_AXI 1 2 1 N
+preplace netloc hier_pspl_port_hp2_m_axi 1 0 1 N
+preplace netloc S00_AXI_1 1 1 1 600
+preplace netloc hier_pspl_port_gp0_m_axi 1 0 1 N
+preplace netloc processing_system7_0_FIXED_IO 1 1 2 N 480 NJ
+preplace netloc axi_interconnect_0_M00_AXI 1 2 1 N
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 1 2 610 440 NJ
+preplace netloc axi_interconnect_0_M01_AXI 1 2 1 N
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 140 90 590 20 NJ
+preplace netloc hier_pspl_port_acp_m_axi 1 0 1 N
+preplace netloc axi_interconnect_0_M03_AXI 1 2 1 N
+levelinfo -pg 1 120 360 740 900
+",
+}

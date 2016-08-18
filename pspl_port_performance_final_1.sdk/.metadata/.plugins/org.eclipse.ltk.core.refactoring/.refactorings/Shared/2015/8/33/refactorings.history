@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;Amp.c&apos; to &apos;Shared&apos;" description="Move &apos;Amp.c&apos; to &apos;Shared&apos;" destination="/Shared" element1="/application_cpu_0/src/Amp.c" element2="/application_cpu_0/src/Amp.h" element3="/application_cpu_0/src/Cli.c" element4="/application_cpu_0/src/Cli.h" element5="/application_cpu_0/src/main.c" element6="/application_cpu_0/src/main.h" element7="/application_cpu_0/src/PeripheralShortcuts.c" element8="/application_cpu_0/src/PeripheralShortcuts.h" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="8" stamp="1439397873864" updateReferences="true"/>
+</session>

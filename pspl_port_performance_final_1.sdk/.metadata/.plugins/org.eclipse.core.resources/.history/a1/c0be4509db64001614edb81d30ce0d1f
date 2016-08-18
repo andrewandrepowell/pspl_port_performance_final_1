@@ -1,0 +1,49 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/srl_fifo.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity SRL_FIFO
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/axi_bram_ctrl_funcs.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/coregen_comp_defs.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/axi_lite_if.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity axi_lite_if
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/checkbit_handler_64.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity checkbit_handler_64
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/checkbit_handler.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity checkbit_handler
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/correct_one_bit_64.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity Correct_One_Bit_64
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/correct_one_bit.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity Correct_One_Bit
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/xor18.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity XOR18
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/parity.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity Parity
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/ecc_gen.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity ecc_gen
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/lite_ecc_reg.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity lite_ecc_reg
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/axi_lite.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity axi_lite
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/sng_port_arb.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity sng_port_arb
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/ua_narrow.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity ua_narrow
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/wrap_brst.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity wrap_brst
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/rd_chnl.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity rd_chnl
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/wr_chnl.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity wr_chnl
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/full_axi.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity full_axi
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/axi_bram_ctrl_top.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity axi_bram_ctrl_top
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/ipshared/xilinx.com/axi_bram_ctrl_v4_0/b6365b74/hdl/vhdl/axi_bram_ctrl.vhd" into library axi_bram_ctrl_v4_0
+INFO: [VRFC 10-307] analyzing entity axi_bram_ctrl
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/bd/bram32/ip/bram32_axi_bram_ctrl_0_0/sim/bram32_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram32_axi_bram_ctrl_0_0
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/bd/bram64/ip/bram64_axi_bram_ctrl_0_1/sim/bram64_axi_bram_ctrl_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram64_axi_bram_ctrl_0_1
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/p/p.srcs/sources_1/bd/bram32/ip/bram32_axi_bram_ctrl_0_1/sim/bram32_axi_bram_ctrl_0_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram32_axi_bram_ctrl_0_1
+INFO: [VRFC 10-163] Analyzing VHDL file "c:/ip_repo/hardware_accelerator_1.0/p/p.srcs/sources_1/bd/bram64/ip/bram64_axi_bram_ctrl_0_0/sim/bram64_axi_bram_ctrl_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity bram64_axi_bram_ctrl_0_0

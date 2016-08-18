@@ -1,0 +1,23 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port global_ready -pg 1 -y 60 -defaultsOSRD
+preplace portBus local_readies -pg 1 -y 120 -defaultsOSRD
+preplace portBus local_enables -pg 1 -y 100 -defaultsOSRD
+preplace portBus global_enable -pg 1 -y 40 -defaultsOSRD
+preplace inst xlconstant_0_0 -pg 1 -lvl 1 -y 230 -defaultsOSRD
+preplace inst hier_is_not_equal_0 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 3 -y 60 -defaultsOSRD
+preplace inst util_reduced_logic_and_0 -pg 1 -lvl 4 -y 60 -defaultsOSRD
+preplace inst hier_is_equal_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace netloc hier_is_equal_0_Res 1 2 1 500
+preplace netloc global_enable_1 1 0 3 NJ 40 NJ 40 N
+preplace netloc local_readies_1 1 0 2 NJ 120 N
+preplace netloc xlconcat_0_dout 1 3 1 N
+preplace netloc xlconstant_0_dout 1 1 1 N
+preplace netloc util_reduced_logic_0_Res 1 4 1 N
+preplace netloc util_vector_logic_not_0_Res 1 2 1 510
+preplace netloc local_enables_1 1 0 2 NJ 100 320
+levelinfo -pg 1 150 250 410 600 790 900
+",
+}

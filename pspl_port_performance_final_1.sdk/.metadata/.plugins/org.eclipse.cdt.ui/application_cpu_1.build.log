@@ -1,0 +1,142 @@
+20:27:36 **** Build of configuration Debug for project application_cpu_1 ****
+make all 
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Amp.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/Shared/Amp.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/Shared/Amp.d" -MT"src/Shared/Amp.d" -o "src/Shared/Amp.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Amp.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Amp.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Cli.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/Shared/Cli.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/Shared/Cli.d" -MT"src/Shared/Cli.d" -o "src/Shared/Cli.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Cli.c"
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Cli.c: In function 'Cli_Synch_send_report':
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Cli.c:1395:2: warning: #warning "You need to modify the source code such that you can check the smp bit for both processors!" [-Wcpp]
+ #warning "You need to modify the source code such that you can check the smp bit for both processors!"
+  ^
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/Cli.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/PeripheralShortcuts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/Shared/PeripheralShortcuts.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/Shared/PeripheralShortcuts.d" -MT"src/Shared/PeripheralShortcuts.d" -o "src/Shared/PeripheralShortcuts.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/PeripheralShortcuts.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/PeripheralShortcuts.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/TaskShortcuts.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/Shared/TaskShortcuts.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/Shared/TaskShortcuts.d" -MT"src/Shared/TaskShortcuts.d" -o "src/Shared/TaskShortcuts.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/TaskShortcuts.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/TaskShortcuts.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/Shared/main.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/Shared/main.d" -MT"src/Shared/main.d" -o "src/Shared/main.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c"
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c: In function 'Shared_setup':
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c:869:15: warning: unused variable 'shared_data' [-Wunused-variable]
+  Shared_Data* shared_data;
+               ^
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c: At top level:
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c:60:6: warning: 'asset_callback' defined but not used [-Wunused-function]
+ void asset_callback(const char *file, int line) {
+      ^
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/Shared/main.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOSMain.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/FreeRTOSMain.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/FreeRTOSMain.d" -MT"src/FreeRTOS/FreeRTOSMain.d" -o "src/FreeRTOS/FreeRTOSMain.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOSMain.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOSMain.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_CLI.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/FreeRTOS_CLI.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/FreeRTOS_CLI.d" -MT"src/FreeRTOS/FreeRTOS_CLI.d" -o "src/FreeRTOS/FreeRTOS_CLI.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_CLI.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_CLI.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_asm_vectors.S'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/FreeRTOS_asm_vectors.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/FreeRTOS_asm_vectors.d" -MT"src/FreeRTOS/FreeRTOS_asm_vectors.d" -o "src/FreeRTOS/FreeRTOS_asm_vectors.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_asm_vectors.S"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_asm_vectors.S'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_tick_config.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/FreeRTOS_tick_config.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/FreeRTOS_tick_config.d" -MT"src/FreeRTOS/FreeRTOS_tick_config.d" -o "src/FreeRTOS/FreeRTOS_tick_config.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_tick_config.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/FreeRTOS_tick_config.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueue.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/IntQueue.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/IntQueue.d" -MT"src/FreeRTOS/IntQueue.d" -o "src/FreeRTOS/IntQueue.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueue.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueue.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueueTimer.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/IntQueueTimer.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/IntQueueTimer.d" -MT"src/FreeRTOS/IntQueueTimer.d" -o "src/FreeRTOS/IntQueueTimer.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueueTimer.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/IntQueueTimer.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/UARTCommandConsole.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/UARTCommandConsole.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/UARTCommandConsole.d" -MT"src/FreeRTOS/UARTCommandConsole.d" -o "src/FreeRTOS/UARTCommandConsole.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/UARTCommandConsole.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/UARTCommandConsole.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/croutine.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/croutine.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/croutine.d" -MT"src/FreeRTOS/croutine.d" -o "src/FreeRTOS/croutine.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/croutine.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/croutine.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/event_groups.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/event_groups.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/event_groups.d" -MT"src/FreeRTOS/event_groups.d" -o "src/FreeRTOS/event_groups.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/event_groups.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/event_groups.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/heap_4.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/heap_4.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/heap_4.d" -MT"src/FreeRTOS/heap_4.d" -o "src/FreeRTOS/heap_4.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/heap_4.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/heap_4.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/list.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/list.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/list.d" -MT"src/FreeRTOS/list.d" -o "src/FreeRTOS/list.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/list.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/list.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/platform.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/platform.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/platform.d" -MT"src/FreeRTOS/platform.d" -o "src/FreeRTOS/platform.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/platform.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/platform.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/port.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/port.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/port.d" -MT"src/FreeRTOS/port.d" -o "src/FreeRTOS/port.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/port.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/port.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/queue.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/queue.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/queue.d" -MT"src/FreeRTOS/queue.d" -o "src/FreeRTOS/queue.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/queue.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/queue.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/serial.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/serial.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/serial.d" -MT"src/FreeRTOS/serial.d" -o "src/FreeRTOS/serial.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/serial.c"
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/serial.c: In function 'vVirtualPutString':
+C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/serial.c:278:25: warning: initialization discards 'const' qualifier from pointer target type
+  signed char* end_ptr = pcString+usStringLength+1;
+                         ^
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/serial.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/tasks.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/tasks.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/tasks.d" -MT"src/FreeRTOS/tasks.d" -o "src/FreeRTOS/tasks.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/tasks.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/tasks.c'
+' '
+'Building file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/timers.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -std=c99 -mcpu=cortex-a9 -mfpu=neon -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\FreeRTOS" -I"C:\rp\zynq_com\vivado\pspl_port_performance_final_1\pspl_port_performance_final_1.sdk\Shared" -c -fmessage-length=0 -MT"src/FreeRTOS/timers.o" -I../../application_cpu_1_bsp/ps7_cortexa9_1/include -MMD -MP -MF"src/FreeRTOS/timers.d" -MT"src/FreeRTOS/timers.d" -o "src/FreeRTOS/timers.o" "C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/timers.c"
+'Finished building: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/FreeRTOS/timers.c'
+' '
+'Building target: application_cpu_1.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../application_cpu_1_bsp/ps7_cortexa9_1/lib -o "application_cpu_1.elf"  ./src/Shared/Amp.o ./src/Shared/Cli.o ./src/Shared/PeripheralShortcuts.o ./src/Shared/TaskShortcuts.o ./src/Shared/main.o  ./src/FreeRTOS/FreeRTOSMain.o ./src/FreeRTOS/FreeRTOS_CLI.o ./src/FreeRTOS/FreeRTOS_asm_vectors.o ./src/FreeRTOS/FreeRTOS_tick_config.o ./src/FreeRTOS/IntQueue.o ./src/FreeRTOS/IntQueueTimer.o ./src/FreeRTOS/UARTCommandConsole.o ./src/FreeRTOS/croutine.o ./src/FreeRTOS/event_groups.o ./src/FreeRTOS/heap_4.o ./src/FreeRTOS/list.o ./src/FreeRTOS/platform.o ./src/FreeRTOS/port.o ./src/FreeRTOS/portASM.o ./src/FreeRTOS/printf-stdarg.o ./src/FreeRTOS/queue.o ./src/FreeRTOS/serial.o ./src/FreeRTOS/tasks.o ./src/FreeRTOS/timers.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: application_cpu_1.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size application_cpu_1.elf  |tee "application_cpu_1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 165976	   3292	 151356	 320624	  4e470	application_cpu_1.elf
+'Finished building: application_cpu_1.elf.size'
+' '
+
+20:27:44 Build Finished (took 7s.751ms)
+

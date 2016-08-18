@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2015.3 (64-bit)
+# SW Build 1368829 on Mon Sep 28 20:06:43 MDT 2015
+# 
+# Start of session at: Wed Aug 17 20:33:11 2016
+# Process ID: 4296
+# Current directory: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/webtalk/webtalk.log
+# Journal file: C:/rp/zynq_com/vivado/pspl_port_performance_final_1/pspl_port_performance_final_1.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

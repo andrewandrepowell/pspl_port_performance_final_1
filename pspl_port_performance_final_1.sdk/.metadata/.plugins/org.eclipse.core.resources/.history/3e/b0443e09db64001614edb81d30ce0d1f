@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="hardware_accelerator_v1_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_bram_ctrl_funcs" />
+            <top_module name="glbl" />
+            <top_module name="hardware_accelerator_v1_testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="97" />
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_aclk" type="logic">
+      <obj_property name="ElementShortName">axi_aclk</obj_property>
+      <obj_property name="ObjectShortName">axi_aclk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_aresetn" type="logic">
+      <obj_property name="ElementShortName">axi_aresetn</obj_property>
+      <obj_property name="ObjectShortName">axi_aresetn</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/enable" type="logic">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/ready" type="logic">
+      <obj_property name="ElementShortName">ready</obj_property>
+      <obj_property name="ObjectShortName">ready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_awaddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_awaddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_awprot" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_awready" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_wdata" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_wdata[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_wstrb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_wstrb[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_wready" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_bresp" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_bready" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_araddr" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_araddr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_araddr[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_arprot" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_arready" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_rdata" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_rdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_rdata[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_rresp" type="array">
+      <obj_property name="ElementShortName">axi_lite_registers_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_lite_registers_rready" type="logic">
+      <obj_property name="ElementShortName">axi_lite_registers_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_lite_registers_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awid" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awid[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awaddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awlen" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awsize" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awburst" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awlock" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_awlock</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awlock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awcache" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awprot" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awqos" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awuser" type="array">
+      <obj_property name="ElementShortName">axi_full_data_awuser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awuser[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awvalid" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_awvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_awready" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_awready</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wdata" type="array">
+      <obj_property name="ElementShortName">axi_full_data_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wstrb" type="array">
+      <obj_property name="ElementShortName">axi_full_data_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wlast" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_wlast</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wuser" type="array">
+      <obj_property name="ElementShortName">axi_full_data_wuser[-1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wuser[-1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wvalid" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_wvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_wready" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_wready</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_bid" type="array">
+      <obj_property name="ElementShortName">axi_full_data_bid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_bid[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_bresp" type="array">
+      <obj_property name="ElementShortName">axi_full_data_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_buser" type="array">
+      <obj_property name="ElementShortName">axi_full_data_buser[-1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_buser[-1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_bready" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_bready</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arid" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arid[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_araddr" type="array">
+      <obj_property name="ElementShortName">axi_full_data_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_araddr[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arlen" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arsize" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arburst" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arlock" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_arlock</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arlock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arcache" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arprot" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arqos" type="array">
+      <obj_property name="ElementShortName">axi_full_data_arqos[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arqos[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_aruser" type="array">
+      <obj_property name="ElementShortName">axi_full_data_aruser[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_aruser[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arvalid" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_arvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_arready" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_arready</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rid" type="array">
+      <obj_property name="ElementShortName">axi_full_data_rid[0:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rid[0:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rdata" type="array">
+      <obj_property name="ElementShortName">axi_full_data_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rresp" type="array">
+      <obj_property name="ElementShortName">axi_full_data_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rlast" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_rlast</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_ruser" type="array">
+      <obj_property name="ElementShortName">axi_full_data_ruser[-1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_ruser[-1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rvalid" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_rvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/axi_full_data_rready" type="logic">
+      <obj_property name="ElementShortName">axi_full_data_rready</obj_property>
+      <obj_property name="ObjectShortName">axi_full_data_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_araddr" type="array">
+      <obj_property name="ElementShortName">s_axi_full_araddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_araddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arburst" type="array">
+      <obj_property name="ElementShortName">s_axi_full_arburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arcache" type="array">
+      <obj_property name="ElementShortName">s_axi_full_arcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arlen" type="array">
+      <obj_property name="ElementShortName">s_axi_full_arlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arlock" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_arlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arlock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arprot" type="array">
+      <obj_property name="ElementShortName">s_axi_full_arprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arready" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_arready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arsize" type="array">
+      <obj_property name="ElementShortName">s_axi_full_arsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_arvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awaddr" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awaddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awaddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awburst" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awburst[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awburst[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awcache" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awcache[3:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awcache[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awlen" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awlen[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awlen[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awlock" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_awlock</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awlock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awprot" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awprot[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awprot[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awready" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_awready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awsize" type="array">
+      <obj_property name="ElementShortName">s_axi_full_awsize[2:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awsize[2:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_awvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_bready" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_bready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_bresp" type="array">
+      <obj_property name="ElementShortName">s_axi_full_bresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_bresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_bvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_bvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_bvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_rdata" type="array">
+      <obj_property name="ElementShortName">s_axi_full_rdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_rdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_rlast" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_rlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_rlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_rready" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_rready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_rresp" type="array">
+      <obj_property name="ElementShortName">s_axi_full_rresp[1:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_rresp[1:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_rvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_rvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_rvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_wdata" type="array">
+      <obj_property name="ElementShortName">s_axi_full_wdata[63:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_wdata[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_wlast" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_wlast</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_wlast</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_wready" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_wready</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_wstrb" type="array">
+      <obj_property name="ElementShortName">s_axi_full_wstrb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_wstrb[7:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/\genblk1.bram_block_design_inst /s_axi_full_wvalid" type="logic">
+      <obj_property name="ElementShortName">s_axi_full_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axi_full_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst/ha_w_r_burst_counter_or_bram_to_axi_full_w_neq" type="logic">
+      <obj_property name="ElementShortName">ha_w_r_burst_counter_or_bram_to_axi_full_w_neq</obj_property>
+      <obj_property name="ObjectShortName">ha_w_r_burst_counter_or_bram_to_axi_full_w_neq</obj_property>
+   </wvobject>
+</wave_config>

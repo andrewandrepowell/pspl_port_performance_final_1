@@ -1,0 +1,38 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Wed Aug 17 19:39:46 2016
+| Host         : idea-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'bram64_axi_bram_ctrl_0_1'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of bram64_axi_bram_ctrl_0_1 (xilinx.com:ip:axi_bram_ctrl:4.0) from (Rev. 3) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'bram64_axi_bram_ctrl_0_1'. These changes may impact your design.
+
+
+-upgraded port 'bram_addr_a' width 13 differs from original width 15
+-upgraded port 'bram_addr_b' width 13 differs from original width 15
+-upgraded port 'bram_rddata_a' width 64 differs from original width 32
+-upgraded port 'bram_rddata_b' width 64 differs from original width 32
+-upgraded port 'bram_we_a' width 8 differs from original width 4
+-upgraded port 'bram_we_b' width 8 differs from original width 4
+-upgraded port 'bram_wrdata_a' width 64 differs from original width 32
+-upgraded port 'bram_wrdata_b' width 64 differs from original width 32
+-upgraded port 's_axi_araddr' width 13 differs from original width 15
+-upgraded port 's_axi_awaddr' width 13 differs from original width 15
+-upgraded port 's_axi_rdata' width 64 differs from original width 32
+-upgraded port 's_axi_wdata' width 64 differs from original width 32
+-upgraded port 's_axi_wstrb' width 8 differs from original width 4
+

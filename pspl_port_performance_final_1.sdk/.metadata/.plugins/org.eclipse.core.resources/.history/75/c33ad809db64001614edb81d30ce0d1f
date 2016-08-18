@@ -1,0 +1,11 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto c3f5b7d2026d42899405724de279f3c2 --debug typical --relax --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot hardware_accelerator_v1_testbench_time_synth -transport_int_delays -pulse_r 0 -pulse_int_r 0 xil_defaultlib.hardware_accelerator_v1_testbench xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 2 for port s_axi_full_data_arburst [c:/ip_repo/hardware_accelerator_1.0/hdl/hardware_accelerator_v1_testbench.v:261]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "hardware_accelerator_v1_testbench_time_synth.sdf", for root module "hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "hardware_accelerator_v1_testbench_time_synth.sdf", for root module "hardware_accelerator_v1_testbench/hardware_accelerator_v1_0_inst".

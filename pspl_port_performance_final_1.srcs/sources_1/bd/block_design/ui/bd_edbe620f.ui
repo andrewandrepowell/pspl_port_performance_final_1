@@ -1,0 +1,29 @@
+{
+   guistr: "# # String gsaved with Nlview 6.4.10  2014-10-02 bk=1.3207 VDI=35 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port outputs -pg 1 -y 410 -defaultsOSRD
+preplace port local_enable_gp0 -pg 1 -y 120 -defaultsOSRD
+preplace port local_enable_acp -pg 1 -y 40 -defaultsOSRD
+preplace port local_enables -pg 1 -y 410 -defaultsOSRD
+preplace port global_enable -pg 1 -y 460 -defaultsOSRD
+preplace port local_enable_hp0 -pg 1 -y 200 -defaultsOSRD
+preplace port local_enable_hp1 -pg 1 -y 280 -defaultsOSRD
+preplace port local_enable_hp2 -pg 1 -y 360 -defaultsOSRD
+preplace inst xlslice_enable_gp0 -pg 1 -lvl 2 -y 120 -defaultsOSRD
+preplace inst xlslice_enable_acp -pg 1 -lvl 2 -y 40 -defaultsOSRD
+preplace inst xlslice_enable_hp0 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst xlslice_local_enables -pg 1 -lvl 1 -y 410 -defaultsOSRD
+preplace inst xlslice_enable_hp1 -pg 1 -lvl 2 -y 280 -defaultsOSRD
+preplace inst xlslice_enable_hp2 -pg 1 -lvl 2 -y 360 -defaultsOSRD
+preplace inst xlslice_global_enable -pg 1 -lvl 2 -y 460 -defaultsOSRD
+preplace netloc xlslice_4_Dout 1 2 1 N
+preplace netloc xlslice_3_Dout 1 2 1 N
+preplace netloc xlslice_1_Dout 1 2 1 N
+preplace netloc outputs_1 1 0 2 100 360 NJ
+preplace netloc xlslice_0_Dout1 1 2 1 N
+preplace netloc xlslice_2_Dout 1 2 1 N
+preplace netloc xlslice_local_enables_Dout 1 1 2 290 410 N
+preplace netloc xlslice_0_Dout 1 2 1 N
+levelinfo -pg 1 80 190 380 500
+",
+}

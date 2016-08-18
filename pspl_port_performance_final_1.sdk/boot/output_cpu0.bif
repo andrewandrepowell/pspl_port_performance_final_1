@@ -1,0 +1,6 @@
+the_ROM_image:
+{
+	[bootloader]C:\rp\zynq_com\vivado\pspl_port_performance_final_0\pspl_port_performance_final_0.sdk\fsbl\Debug\fsbl.elf
+	C:\rp\zynq_com\vivado\pspl_port_performance_final_0\pspl_port_performance_final_0.sdk\block_design_wrapper_hw_platform_0\block_design_wrapper.bit
+	C:\rp\zynq_com\vivado\pspl_port_performance_final_0\pspl_port_performance_final_0.sdk\application_cpu_0\Debug\application_cpu_0.elf
+}

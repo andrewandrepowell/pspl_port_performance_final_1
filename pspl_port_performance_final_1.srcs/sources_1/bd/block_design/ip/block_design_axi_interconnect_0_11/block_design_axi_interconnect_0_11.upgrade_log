@@ -1,0 +1,16 @@
+Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2015.3 (win64) Build 1368829 Mon Sep 28 20:06:43 MDT 2015
+| Date         : Wed Aug 17 19:35:26 2016
+| Host         : idea-PC running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg484-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'block_design_axi_interconnect_0_11'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of block_design_axi_interconnect_0_11 (xilinx.com:ip:axi_interconnect:2.1) from (Rev. 5) to (Rev. 7)
+

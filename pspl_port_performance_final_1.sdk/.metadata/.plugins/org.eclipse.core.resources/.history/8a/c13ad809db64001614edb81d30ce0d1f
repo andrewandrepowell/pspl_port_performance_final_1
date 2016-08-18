@@ -1,0 +1,31 @@
+Determining compilation order of HDL files.
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/synth/timing/hardware_accelerator_v1_testbench_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bram32
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_SRL_FIFO
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_axi_bram_ctrl__parameterized0
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_axi_bram_ctrl_top
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_full_axi
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_rd_chnl
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_wr_chnl
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_wrap_brst
+INFO: [VRFC 10-311] analyzing module bram32_axi_bram_ctrl_0_0_wrap_brst_0
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_generic_cstr
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_prim_width
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_prim_width__parameterized0
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_prim_wrapper__parameterized0
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_top
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_v8_2__parameterized0
+INFO: [VRFC 10-311] analyzing module bram32_blk_mem_gen_0_0_blk_mem_gen_v8_2_synth
+INFO: [VRFC 10-311] analyzing module bram32_wrapper
+INFO: [VRFC 10-311] analyzing module hardware_accelerator_v1_0
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/ip_repo/hardware_accelerator_1.0/hdl/hardware_accelerator_v1_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hardware_accelerator_v1_testbench
+INFO: [VRFC 10-311] analyzing module control_module
+INFO: [VRFC 10-311] analyzing module main_memory_module
+INFO: [VRFC 10-2263] Analyzing Verilog file "c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/synth/timing/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+WARNING: [VRFC 10-1195] overwriting previous definition of module glbl [c:/ip_repo/hardware_accelerator_1.0/p/p.sim/sim_1/synth/timing/glbl.v:6]

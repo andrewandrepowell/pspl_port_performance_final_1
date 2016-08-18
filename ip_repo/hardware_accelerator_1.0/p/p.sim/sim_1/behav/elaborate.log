@@ -1,0 +1,52 @@
+Vivado Simulator 2014.4
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.4/bin/unwrapped/win64.o/xelab.exe -wto 40536577d8e84b6fa379637b0be04a7f --debug typical --relax -L blk_mem_gen_v8_2 -L axi_bram_ctrl_v4_0 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot hardware_accelerator_v1_testbench_behav xil_defaultlib.hardware_accelerator_v1_testbench xil_defaultlib.glbl -log elaborate.log 
+Multi-threading is on. Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 32 for port addra [c:/ip_repo/hardware_accelerator_1.0/p/p.srcs/sources_1/bd/bram64/hdl/bram64.v:210]
+WARNING: [VRFC 10-278] actual bit length 13 differs from formal bit length 32 for port addrb [c:/ip_repo/hardware_accelerator_1.0/p/p.srcs/sources_1/bd/bram64/hdl/bram64.v:211]
+WARNING: [VRFC 10-278] actual bit length 3 differs from formal bit length 2 for port s_axi_full_data_arburst [c:/ip_repo/hardware_accelerator_1.0/hdl/hardware_accelerator_v1_testbench.v:246]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package axi_bram_ctrl_v4_0.axi_bram_ctrl_funcs
+Compiling package std.textio
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package unisim.vcomponents
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.ua_narrow [\ua_narrow(64,3,3)\]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.wrap_brst [\wrap_brst(13,3,64)\]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture muxcy_l_v of entity unisim.MUXCY_L [muxcy_l_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E("0000000000000000",'0')(...]
+Compiling architecture fdre_v of entity unisim.FDRE [\FDRE('0','0','0','0')\]
+Compiling architecture fdr_v of entity unisim.FDR [\FDR('0')\]
+Compiling architecture imp of entity axi_bram_ctrl_v4_0.SRL_FIFO [\SRL_FIFO(1,8,false)\]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.wr_chnl [\wr_chnl(13,3,64,1,1,"AXI4",0,0,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.rd_chnl [\rd_chnl(13,3,64,1,1,"AXI4",0,0,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.full_axi [\full_axi(13,64,1,"AXI4",1,0,32,...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.axi_bram_ctrl_top [\axi_bram_ctrl_top(10,13,64,1,"A...]
+Compiling architecture implementation of entity axi_bram_ctrl_v4_0.axi_bram_ctrl [\axi_bram_ctrl("EXTERNAL",1024,1...]
+Compiling architecture bram64_axi_bram_ctrl_0_0_arch of entity xil_defaultlib.bram64_axi_bram_ctrl_0_0 [bram64_axi_bram_ctrl_0_0_default]
+Compiling module blk_mem_gen_v8_2.BLK_MEM_GEN_v8_2_output_stage(C_...
+Compiling module blk_mem_gen_v8_2.BLK_MEM_GEN_v8_2_output_stage(C_...
+Compiling module blk_mem_gen_v8_2.BLK_MEM_GEN_v8_2_softecc_output_...
+Compiling module blk_mem_gen_v8_2.BLK_MEM_GEN_v8_2_mem_module(C_CO...
+Compiling module blk_mem_gen_v8_2.blk_mem_gen_v8_2(C_FAMILY="zynq"...
+Compiling module xil_defaultlib.bram64_blk_mem_gen_0_0
+Compiling module xil_defaultlib.bram64
+Compiling module xil_defaultlib.bram64_wrapper
+Compiling module xil_defaultlib.hardware_accelerator_v1_0(C_s_ax...
+Compiling module xil_defaultlib.control_module(C_m_axi_lite_regi...
+Compiling module xil_defaultlib.main_memory_module(C_s_axi_full_...
+Compiling module xil_defaultlib.hardware_accelerator_v1_testbenc...
+Compiling module xil_defaultlib.glbl
+Waiting for 3 sub-compilation(s) to finish...
+Built simulation snapshot hardware_accelerator_v1_testbench_behav

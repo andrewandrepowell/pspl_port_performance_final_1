@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="33">
+  <CompositeFile CompositeFileTopName="block_design" CanBeSetAsTop="true" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1471477403"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1471477403"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1471477403"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\block_design_processing_system7_0_0\block_design_processing_system7_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/processing_system7_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_0\block_design_hardware_accelerator_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_0\block_design_axi3_metrics_counter_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_0\block_design_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_0_0\block_design_util_reduced_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_0\block_design_axi_interconnect_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_0\block_design_axi_interconnect_1_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_1\block_design_axi_interconnect_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_1\block_design_axi_interconnect_1_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_1\block_design_hardware_accelerator_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_1\block_design_axi3_metrics_counter_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_1\block_design_xlconcat_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_and_0_0\block_design_util_reduced_logic_and_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_2\block_design_axi_interconnect_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_2\block_design_axi_interconnect_1_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_3\block_design_axi_interconnect_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_3\block_design_axi_interconnect_1_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_2\block_design_hardware_accelerator_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_2\block_design_axi3_metrics_counter_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_2\block_design_xlconcat_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_and_0_1\block_design_util_reduced_logic_and_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_4\block_design_axi_interconnect_0_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_4\block_design_axi_interconnect_1_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_5\block_design_axi_interconnect_0_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_5\block_design_axi_interconnect_1_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_3\block_design_hardware_accelerator_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_3\block_design_axi3_metrics_counter_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_3\block_design_xlconcat_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_and_0_2\block_design_util_reduced_logic_and_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_6\block_design_axi_interconnect_0_6.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_6\block_design_axi_interconnect_1_6.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_7\block_design_axi_interconnect_0_7.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_7\block_design_axi_interconnect_1_7.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_4\block_design_hardware_accelerator_0_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_4\block_design_axi3_metrics_counter_0_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_4\block_design_xlconcat_0_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_and_0_3\block_design_util_reduced_logic_and_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_8\block_design_axi_interconnect_0_8.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_8\block_design_axi_interconnect_1_8.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_9\block_design_axi_interconnect_0_9.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_9\block_design_axi_interconnect_1_9.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_hardware_accelerator_0_5\block_design_hardware_accelerator_0_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/hardware_accelerator_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi3_metrics_counter_0_5\block_design_axi3_metrics_counter_0_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/axi3_metrics_counter_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_5\block_design_xlconcat_0_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/hier_enable_logic/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_and_0_4\block_design_util_reduced_logic_and_0_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/hier_enable_logic/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_10\block_design_axi_interconnect_0_10.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_1_10\block_design_axi_interconnect_1_10.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/axi_interconnect_1"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_6\block_design_xlconcat_0_6.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/xlconcat_ready"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_0_0\block_design_xlslice_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/xlslice_local_enable_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_local_enable_0_0\block_design_xlslice_local_enable_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/xlslice_local_enable_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_vector_logic_0_0\block_design_util_vector_logic_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_equal_0/util_vector_logic_xor_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_0_1\block_design_util_reduced_logic_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_equal_0/util_reduced_logic_or_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_vector_logic_0_1\block_design_util_vector_logic_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_equal_0/util_vector_logic_not_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_or_0_0\block_design_util_reduced_logic_or_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_not_equal_0/hier_is_equal_1/util_reduced_logic_or_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_vector_logic_xor_0_0\block_design_util_vector_logic_xor_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_not_equal_0/hier_is_equal_1/util_vector_logic_xor_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_vector_logic_not_0_0\block_design_util_vector_logic_not_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_not_equal_0/hier_is_equal_1/util_vector_logic_not_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconstant_0_0\block_design_xlconstant_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/xlconstant_0_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_vector_logic_0_2\block_design_util_vector_logic_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/hier_is_not_equal_0/util_vector_logic_not_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_8\block_design_xlconcat_0_8.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_util_reduced_logic_0_2\block_design_util_reduced_logic_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/hier_global_ready/util_reduced_logic_and_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_0_1\block_design_xlslice_0_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_global_enable"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_0_2\block_design_xlslice_0_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_local_enables"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_0_3\block_design_xlslice_0_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_enable_acp"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_1_0\block_design_xlslice_1_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_enable_gp0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_2_0\block_design_xlslice_2_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_enable_hp0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_2_1\block_design_xlslice_2_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_enable_hp1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlslice_3_0\block_design_xlslice_3_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_enables/xlslice_enable_hp2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_9\block_design_xlconcat_0_9.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/xlconcat_local_readies"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_axi_interconnect_0_11\block_design_axi_interconnect_0_11.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/axi_interconnect_0"/>
+        <Properties IsEditable="false" IsVisible="false" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_proc_sys_reset_0_0\block_design_proc_sys_reset_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/proc_sys_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xlconcat_0_7\block_design_xlconcat_0_7.xci" Type="IP">
+        <Instance HierarchyPath="hier_readies/xlconcat_interrupts"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_0\block_design_xbar_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_7\block_design_xbar_7.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_5\block_design_xbar_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_8\block_design_xbar_8.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_1\block_design_xbar_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_2\block_design_xbar_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_3\block_design_xbar_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_4\block_design_xbar_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/axi_interconnect_0/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_xbar_6\block_design_xbar_6.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_1/xbar"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s00_data_fifo_1\block_design_s00_data_fifo_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_0/s00_couplers/s00_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s00_data_fifo_0\block_design_s00_data_fifo_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_1/s00_couplers/s00_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s01_data_fifo_0\block_design_s01_data_fifo_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_1/s01_couplers/s01_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s00_data_fifo_3\block_design_s00_data_fifo_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_0/axi_interconnect_0/s00_couplers/s00_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s00_data_fifo_4\block_design_s00_data_fifo_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/hier_hardware_accelerator_1/axi_interconnect_0/s00_couplers/s00_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_s00_data_fifo_2\block_design_s00_data_fifo_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/axi_interconnect_0/s00_couplers/s00_data_fifo"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_0\block_design_auto_pc_0.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_acp/axi_interconnect_1/m00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_1\block_design_auto_pc_1.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp0/hier_hardware_accelerator_0/axi_interconnect_1/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_2\block_design_auto_pc_2.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_gp0/hier_hardware_accelerator_0/axi_interconnect_1/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_3\block_design_auto_pc_3.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp1/hier_hardware_accelerator_0/axi_interconnect_1/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_4\block_design_auto_pc_4.xci" Type="IP">
+        <Instance HierarchyPath="hier_pspl_port_hp2/hier_hardware_accelerator_0/axi_interconnect_1/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\block_design_auto_pc_5\block_design_auto_pc_5.xci" Type="IP">
+        <Instance HierarchyPath="hier_ps/axi_interconnect_0/s00_couplers/auto_pc"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="hdl\block_design.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="block_design_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\block_design.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\block_design_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hdl\block_design.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

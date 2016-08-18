@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER hardware_accelerator
+	OPTION supported_peripherals = (hardware_accelerator);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = hardware_accelerator;
+END DRIVER

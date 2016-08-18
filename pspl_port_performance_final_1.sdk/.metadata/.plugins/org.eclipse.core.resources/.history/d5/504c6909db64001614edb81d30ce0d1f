@@ -1,0 +1,1 @@
+-wto "40536577d8e84b6fa379637b0be04a7f" --debug "typical" --relax -L "blk_mem_gen_v8_2" -L "axi_bram_ctrl_v4_0" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "hardware_accelerator_v1_testbench_behav" "xil_defaultlib.hardware_accelerator_v1_testbench" "xil_defaultlib.glbl" -log "elaborate.log" 
